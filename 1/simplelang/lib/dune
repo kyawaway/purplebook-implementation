@@ -1,0 +1,15 @@
+(menhir
+ (flags (--explain))
+ (modules parser))
+
+(ocamllex
+ (modules lexer))
+
+(env
+ (dev
+  (flags
+   (:standard -w -66))))
+
+(library
+ (public_name simplelang.preproc)
+ (name preproc))

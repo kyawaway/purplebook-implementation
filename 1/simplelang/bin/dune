@@ -1,0 +1,4 @@
+(executable
+ (public_name simplelang)
+ (name main)
+ (libraries simplelang.preproc))
